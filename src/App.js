@@ -13,16 +13,7 @@ import {
   withAuthenticator,
 } from "@aws-amplify/ui-react";
 
-import { API } from "aws-amplify";
-import {
-  Button,
-  Flex,
-  Heading,
-  Text,
-  TextField,
-  View,
-  withAuthenticator,
-} from "@aws-amplify/ui-react";
+
 import { listNotes } from "./graphql/queries";
 import {
   createNote as createNoteMutation,
