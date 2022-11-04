@@ -88,13 +88,13 @@ const App = ({ signOut }) => {
             direction="row"
             justifyContent="center"
             alignItems="center"
-          >
+          > 
             <Text as="strong" fontWeight={700}>
               {note.name}
             </Text>
             <Text as="span">{note.description}</Text>
             <Button variation="link" onClick={() => deleteNote(note)}>
-              Delete note
+              Delete notes
             </Button>
           </Flex>
         ))}
