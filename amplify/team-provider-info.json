@@ -17,6 +17,9 @@
       },
       "api": {
         "reactfullstackserver": {}
+      },
+      "storage": {
+        "imagestorage": {}
       }
     }
   }
